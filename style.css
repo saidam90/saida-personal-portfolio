@@ -1,7 +1,6 @@
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
-
 /* Reset default styles */
 * {
 	margin: 0px;
@@ -16,23 +15,52 @@ body {
   margin: 0px;
   padding: 0px;
 	font-family: 'Montserrat', sans-serif;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(237, 237, 229);
 }
 
-nav ul {
-	display: flex;
-	justify-content: right;
+nav{
   top: 0;
-  margin: 20px 20px;
+  margin: 20px auto;
+  padding-bottom: 10px;
+  border-bottom: 1px black solid;
 }
 
-nav li {
+.nav-links {
+	display: flex;
+  flex-direction: row;
+	justify-content: left;
+  list-style-type: none;
+}
+
+.nav-social-links {
+  display: flex;
+	justify-content: right;
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.nav-links li {
 	margin-left: 30px;
 }
 
-nav a {
-	color: #fff;
+li a {
+	color: #333;
 	text-decoration: none;
+	font-weight: bold;
+}
+
+li p {
+	margin-top: 10px;
+	font-size: 0.8em;
+}
+
+
+
+.nav-social-links a:hover {
+  opacity: 1;
 }
 
 a{
@@ -44,6 +72,14 @@ header {
 	margin-left: 40px;
 }
 
+#about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px auto;
+  padding: 0px 60px 0px 60px;
+	max-width: 750px;
+}
 
 #about-text h1{
   display: flex;
@@ -73,14 +109,7 @@ h3{
   margin: 10px 0;
 }
 
-#about {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px auto;
-  padding: 10px 60px 0px 60px;
-	max-width: 750px;
-}
+
 
 /* section {
 	margin: 0 0 40px 40px;
@@ -95,7 +124,7 @@ h3{
 
 
 .round-img{
-  width: 250px;
+  width: 230px;
   border-radius: 50%;
   margin: 30px;
 }
@@ -110,10 +139,10 @@ h3{
 
 .btn-green {
   display: inline;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 230px;
   font-size: 14px;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 1px;
   padding: 13px 20px 13px;
   outline: 0;
@@ -202,7 +231,7 @@ h3{
 }
 
 .project-box{
-  width: 330px;
+  width: 100px;
   padding: 15px;
   border: 1px solid #eeeeee;
   margin: 20px;
@@ -217,21 +246,6 @@ h3{
 
 h2 {
 	margin-bottom: 20px;
-}
-
-ul {
-	list-style: none;
-}
-
-li a {
-	color: #333;
-	text-decoration: none;
-	font-weight: bold;
-}
-
-li p {
-	margin-top: 10px;
-	font-size: 0.8em;
 }
 
 form label {

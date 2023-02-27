@@ -5,30 +5,28 @@
 	<title>Saida Murtazali | Portfolio website</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/x-icon" href="assets/fav-icon.svg">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-
-
 </head>
 
 <body>
 	<header>
 		<nav>
-      <ul>
-        <li><a href="#about">About</a></li>
+      <ul class="nav-links">
 				<li><a href="#projects">Projects</a></li>
 				<li><a href="#resume">Resume</a></li>
 			</ul>
+      <ul class="nav-social-links">
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+      </ul>
 		</nav>
 	</header>
 
 	<main>
-    <!-- <img src="assets/laptop.gif" class="banner" alt=""> -->
-
 		<section id="about">
-      <div class="about-text">
-        <h1>Hi there,
-          <br>
-          I'm Saida</h1>
+      <div class="about-text-main">
+        <h1>Hi there, <br> I'm Saida</h1>
         <h3>Full-Stack Developer | Marketer </h3>
         <p>I build things for the web✨</p>
       </div>
@@ -38,15 +36,17 @@
 		</section>
 
     <div class="btns-green">
-      <button class="btn-green" role="button">Contact me</button>
-      <button class="btn-green" role="button">Download CV</button>
+      <a href="mailto:murtazalisaida@gmail.com">
+        <button class="btn-green" role="button">Get in touch</button>
+      </a>
+      <a href="">
+        <button class="btn-green" role="button">Download CV</button>
+      </a>
     </div>
-
-
 
 		<section id="project">
       <div class="project-heading">
-        <h3>My Projects</h3>
+        <h3>Projects</h3>
       </div>
 
 			<ul class="project-list">
