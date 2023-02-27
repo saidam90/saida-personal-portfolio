@@ -4,41 +4,82 @@
 	<meta charset="UTF-8">
 	<title>Saida Murtazali | Portfolio website</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" type="image/x-icon" href="assets/saida-logo.svg">
+  <link rel="icon" type="image/x-icon" href="assets/fav-icon.svg">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
 </head>
+
 <body>
 	<header>
-		<h1>Hi, I'm Saida</h1>
 		<nav>
-			<ul>
-				<li><a href="#about">About</a></li>
+      <ul>
+        <li><a href="#about">About</a></li>
 				<li><a href="#projects">Projects</a></li>
 				<li><a href="#resume">Resume</a></li>
 			</ul>
 		</nav>
 	</header>
+
 	<main>
+    <!-- <img src="assets/laptop.gif" class="banner" alt=""> -->
+
 		<section id="about">
-			<h2>About Me</h2>
-			<p>Write a brief introduction about yourself here.</p>
+      <div class="about-text">
+        <h1>Hi there,
+          <br>
+          I'm Saida</h1>
+        <h3>Full-Stack Developer | Marketer </h3>
+        <p>I build things for the web✨</p>
+      </div>
+      <div>
+        <img src="assets/saida-img.png" class="round-img" alt="">
+      </div>
 		</section>
-		<section id="portfolio">
-			<h2>My Portfolio</h2>
-			<ul>
-				<li>
-					<a href="#">Project 1</a>
+
+    <div class="btns-green">
+      <button class="btn-green" role="button">Contact me</button>
+      <button class="btn-green" role="button">Download CV</button>
+    </div>
+
+
+
+		<section id="project">
+      <div class="project-heading">
+        <h3>My Projects</h3>
+      </div>
+
+			<ul class="project-list">
+				<li class="list project-active">
+					<a href="#">All</a>
 					<p>Description of project 1</p>
 				</li>
-				<li>
-					<a href="#">Project 2</a>
+				<li class="list">
+					<a href="#">App design</a>
 					<p>Description of project 2</p>
 				</li>
-				<li>
-					<a href="#">Project 3</a>
+				<li class="list">
+					<a href="#">Website design</a>
 					<p>Description of project 3</p>
 				</li>
 			</ul>
+
+      <div class="project-container">
+        <a href="" class="project-box">
+          <img src="assets/fav-icon.svg" alt="">
+        </a>
+        <a href="" class="project-box">
+          <img src="assets/fav-icon.svg" alt="">
+        </a>
+        <a href="" class="project-box">
+          <img src="assets/fav-icon.svg" alt="">
+        </a>
+        <a href="" class="project-box">
+          <img src="assets/fav-icon.svg" alt="">
+        </a>
+      </div>
 		</section>
+
 		<section id="contact">
 			<h2>Contact Me</h2>
 			<form action="#">
@@ -54,10 +95,14 @@
 				<input type="submit" value="Send">
 			</form>
 		</section>
+
 	</main>
+
 	<footer>
 		<p>Saida Murtazali</p>
 	</footer>
-  <script src="script.js"></script>
+
+  <!-- <script src="script.js"></script> -->
 </body>
+
 </html>
