@@ -1,5 +1,6 @@
 @import url('navbar.css');
 @import url('resume.css');
+@import url('button.css');
 @import url('footer.css');
 
 /* Google fonts */
@@ -126,59 +127,15 @@ li p {
   }
 }
 
-.btns-green {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin: 10px auto;
-  max-width: 600px;
-}
-
-.btn-green {
-  display: inline;
-  justify-content: space-evenly;
-  width: 230px;
-  font-size: 14px;
-  font-weight: 400;
-  letter-spacing: 1px;
-  padding: 13px 20px 13px;
-  outline: 0;
-  border: 1px solid black;
-  cursor: pointer;
-  position: relative;
-  background-color: rgba(252, 252, 252, 0);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-}
-
-.btn-green:after {
-  content: '';
-  background-color: #79c4bc;
-  width: 100%;
-  z-index: -1;
-  position: absolute;
-  height: 100%;
-  top: 7px;
-  left: 7px;
-  transition: 0.2s;
-}
-
-.btn-green:hover:after {
-  top: 0px;
-  left: 0px;
-}
-
 /* Project section */
 
 .project-container {
   background-color: #dce7e1;
-  padding: 30px 0 70px 0;
+  padding: 30px 70px 70px 70px;
   margin-top: 70px;
 }
 
-.project-heading h4 {
-  font-size: 20px;
+.project-heading h2 {
   text-align: center;
   margin: 30px 0 30px 0;
   color: rgb(66, 66, 66);

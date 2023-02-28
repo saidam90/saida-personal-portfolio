@@ -1,0 +1,14 @@
+.resume-container {
+  padding: 20px 70px 70px 70px;
+  margin-top: 50px;
+}
+
+.resume-container h2 {
+  text-align: center;
+  color: rgb(66, 66, 66);
+  font-weight: 300;
+}
+
+.resume-container p {
+  font-weight: 300;
+}
