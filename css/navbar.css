@@ -7,6 +7,7 @@ nav {
   border-bottom: 1px darkslategray solid;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 .nav-links {
