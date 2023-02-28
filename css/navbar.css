@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  /* margin-left: 20px; */
+  /* padding-left: 20px; */
+  margin: 20px auto;
+  padding-bottom: 10px;
+  border-bottom: 1px darkslategray solid;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: flex-end;
+  justify-content: right;
+  list-style-type: none;
+}
+
+.nav-link:hover {
+  opacity: 1;
+  color: gray;
+  cursor: pointer;
+}
+
+.nav-link {
+  color: black;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 10px 10px 0;
+}

@@ -1,5 +1,10 @@
+@import url('navbar.css');
+@import url('resume.css');
+@import url('footer.css');
+
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap');
+
 /* Reset default styles */
 * {
   margin: 0px;
@@ -14,6 +19,8 @@ body {
   padding: 0px;
   font-family: 'Montserrat', sans-serif;
   background-color: rgb(237, 237, 229);
+  z-index: -2;
+  margin-top: 80px;
 }
 
 h1 {
@@ -35,41 +42,6 @@ h3 {
 a {
   text-decoration: none;
   color: black;
-}
-
-/* Navbar */
-
-nav {
-  display: flex;
-  justify-content: flex-end;
-  top: 0;
-  /* margin-left: 20px; */
-  /* padding-left: 20px; */
-  margin: 20px auto;
-  padding-bottom: 10px;
-  border-bottom: 1px darkslategray solid;
-}
-
-.nav-links {
-  display: flex;
-  flex-direction: flex-end;
-  justify-content: right;
-  list-style-type: none;
-}
-
-.nav-link:hover {
-  opacity: 1;
-  color: gray;
-  cursor: pointer;
-}
-
-.nav-link {
-  color: black;
-  margin-right: 10px;
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
-  padding: 0 10px 10px 0;
 }
 
 li a {
@@ -254,43 +226,6 @@ li p {
   padding-bottom: 10px;
 }
 
-/* Footer */
-.footer {
-  background-color: rgb(237, 237, 229);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 70px;
-  padding: 0px 30px;
-  color: rgba(0, 0, 0, 0.3);
-}
-
-.footer-links {
-  display: flex;
-  align-items: center;
-}
-
-.footer-links a {
-  color: black;
-  opacity: 0.15;
-  text-decoration: none;
-  font-size: 16px;
-  padding: 0px 10px;
-}
-
-.footer-links a:hover {
-  opacity: 1;
-}
-
-.footer .fa-heart {
-  color: #79c4bc;
-}
-
-.footer-copyright {
-  font-size: 14px;
-  font-weight: 400;
-}
-
 /* Responsive styles */
 @media only screen and (max-width: 600px) {
   header {
@@ -306,10 +241,6 @@ li p {
   nav li {
     margin: 10px 0;
   }
-
-  /* main {
-		padding: 20px;
-	} */
 
   li {
     margin-bottom: 20px;
