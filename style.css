@@ -1,5 +1,5 @@
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap');
 
 /* Reset default styles */
 * {
@@ -21,8 +21,10 @@ body {
 
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   top: 0;
+  /* margin-left: 20px; */
+  /* padding-left: 20px; */
   margin: 20px auto;
   padding-bottom: 10px;
   border-bottom: 1px black solid;
@@ -30,29 +32,24 @@ nav {
 
 .nav-links {
   display: flex;
-  flex-direction: row;
-  justify-content: left;
+  flex-direction: flex-end;
+  justify-content: right;
   list-style-type: none;
 }
 
-.nav-social-links {
-  padding-left: 30px;
-}
-
-.nav-social-links a {
-  color: black;
-  opacity: 0.15;
-  text-decoration: none;
-  font-size: 24px;
-  padding: 10px;
-}
-
-.nav-social-links a:hover {
+.nav-link:hover {
   opacity: 1;
+  color: gray;
+  cursor: pointer;
 }
 
-.nav-links li {
-  margin-left: 30px;
+.nav-link {
+  color: black;
+  margin-right: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 10px 10px 0;
 }
 
 li a {
@@ -66,16 +63,17 @@ li p {
   font-size: 0.8em;
 }
 
+.name {
+  color: rgb(14, 106, 102);
+  font-size: 53px;
+}
+
 a {
   text-decoration: none;
+  color: black;
 }
 
-header {
-  color: white;
-  margin-left: 40px;
-}
-
-/* About section */
+/* "About" section */
 
 #about {
   display: flex;
@@ -96,7 +94,7 @@ header {
 
 h1 {
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 200;
   margin: 10px 0;
 }
 
@@ -110,7 +108,7 @@ h1 {
 
 h3 {
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 200;
   margin: 10px 0;
 }
 
@@ -237,6 +235,34 @@ h3 {
 
 h2 {
   margin-bottom: 20px;
+}
+
+/* Footer */
+.footer {
+  background: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0, 0, 0, 0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+}
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #d23333;
 }
 
 /* Responsive styles */
