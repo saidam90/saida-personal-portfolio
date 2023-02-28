@@ -17,6 +17,27 @@ body {
   background-color: rgb(237, 237, 229);
 }
 
+h1 {
+  font-size: 50px;
+  font-weight: 200;
+  margin: 10px 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* Navbar */
 
 nav {
@@ -27,7 +48,7 @@ nav {
   /* padding-left: 20px; */
   margin: 20px auto;
   padding-bottom: 10px;
-  border-bottom: 1px black solid;
+  border-bottom: 1px darkslategray solid;
 }
 
 .nav-links {
@@ -68,11 +89,6 @@ li p {
   font-size: 53px;
 }
 
-a {
-  text-decoration: none;
-  color: black;
-}
-
 /* "About" section */
 
 #about {
@@ -92,13 +108,7 @@ a {
   color: #333;
 }
 
-h1 {
-  font-size: 50px;
-  font-weight: 200;
-  margin: 10px 0;
-}
-
-#about-text h3 {
+#about-text {
   display: flex;
   justify-content: left;
   margin: 20px;
@@ -106,16 +116,11 @@ h1 {
   color: #333;
 }
 
-h3 {
-  font-size: 20px;
-  font-weight: 200;
-  margin: 10px 0;
-}
-
 .round-img {
   width: 230px;
   border-radius: 50%;
   margin: 30px;
+  border: solid 2px darkslategray;
 }
 
 .btns-green {
@@ -163,78 +168,39 @@ h3 {
 
 /* Project section */
 
-#project {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  margin: 50px 0px;
-}
-
-.project-heading {
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-}
-
 .project-heading h3 {
-  font-size: 24px;
-  font-weight: 600px;
-  text-transform: uppercase;
-  color: darkslategrey;
-}
-
-.project-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  border: 1px solid rgba(237, 237, 237, 0.6);
-  flex-wrap: wrap;
-  margin: 20px;
-}
-
-.project-list li {
-  margin: 10px;
-  padding: 5px 20px;
-  color: #9b9b9b;
-  font-size: 1rem;
-  letter-spacing: 0.5px;
+  text-align: center;
+  margin: 80px 0 30px 0;
+  /* text-transform: uppercase; */
+  color: black
   font-weight: 400;
-  cursor: pointer;
-  user-select: none;
-}
-
-.project-list-active {
-  background-color: #f0f0f0;
-  color: #272727;
 }
 
 .project-container {
+  /* width: 40%; */
+}
+
+.project-card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  grid-gap: 10px;
+}
+
+.project-card-category {
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  max-width: 1200px;
-  margin: auto;
-}
-
-.project-box {
-  width: 300px;
-  padding: 15px;
-  border: 1px solid #eeeeee;
-  margin: 20px;
-}
-
-.project-box-img {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
-}
-
-h2 {
-  margin-bottom: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
 
 /* Footer */
@@ -247,10 +213,12 @@ h2 {
   padding: 0px 50px;
   color: rgba(0, 0, 0, 0.3);
 }
+
 .footer-links {
   display: flex;
   align-items: center;
 }
+
 .footer-links a {
   color: black;
   opacity: 0.15;
@@ -258,11 +226,18 @@ h2 {
   font-size: 16px;
   padding: 0px 10px;
 }
+
 .footer-links a:hover {
   opacity: 1;
 }
+
 .footer .fa-heart {
   color: #d23333;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  font-weight: 400;
 }
 
 /* Responsive styles */
@@ -288,14 +263,45 @@ h2 {
   li {
     margin-bottom: 20px;
   }
+}
 
-  form input[type='submit'] {
-    padding: 10px;
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .btn-green {
+    padding: 13px 50px 13px;
+  }
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Smallest device */
+@media (min-width: 100px) and (max-width: 575px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .cards {
+    grid-template-columns: 1fr;
   }
 }
 
 @media (min-width: 768px) {
-  .btn-green {
-    padding: 13px 50px 13px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .cards {
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
