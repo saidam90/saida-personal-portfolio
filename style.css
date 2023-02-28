@@ -108,6 +108,14 @@ li p {
   color: #333;
 }
 
+#about-text h1 {
+  display: flex;
+  justify-content: left;
+  margin: 20px;
+  top: 0;
+  color: #333;
+}
+
 #about-text {
   display: flex;
   justify-content: left;
@@ -170,15 +178,16 @@ li p {
 
 .project-container {
   background-color: #dce7e1;
-  padding: 30px;
+  padding: 30px 0 70px 0;
   margin-top: 70px;
 }
 
 .project-heading h4 {
+  font-size: 20px;
   text-align: center;
   margin: 30px 0 30px 0;
   color: rgb(66, 66, 66);
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .project-card {
@@ -210,8 +219,15 @@ li p {
   color: white;
   font-size: 16px;
   font-weight: bold;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+}
+
+.devicon-icons {
+  display: inline;
+  text-align: center;
+  color: rgb(14, 106, 102);
+  padding-bottom: 10px;
 }
 
 /* Footer */
@@ -243,7 +259,7 @@ li p {
 }
 
 .footer .fa-heart {
-  color: #d23333;
+  color: #79c4bc;
 }
 
 .footer-copyright {
