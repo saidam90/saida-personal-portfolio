@@ -4,7 +4,8 @@
 @import url('footer.css');
 
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Fauna+One&family=Playfair+Display&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quicksand:wght@300&display=swap');
+
 /* Reset default styles */
 * {
   margin: 0px;
@@ -57,7 +58,8 @@ li p {
 
 .name {
   color: rgb(14, 106, 102);
-  font-size: 53px;
+  font-size: 60px;
+  font-family: 'Abril Fatface';
 }
 
 /* "About" section */
@@ -76,22 +78,6 @@ li p {
   justify-content: left;
   margin: 20px;
   top: 0;
-  color: #333;
-}
-
-#about-text h1 {
-  display: flex;
-  justify-content: left;
-  margin: 20px;
-  top: 0;
-  color: #333;
-}
-
-#about-text {
-  display: flex;
-  justify-content: left;
-  margin: 20px;
-  top: 30;
   color: #333;
 }
 
@@ -134,11 +120,13 @@ li p {
   margin-top: 70px;
 }
 
-.project-heading h2 {
+.project-heading h1 {
   text-align: center;
-  margin: 30px 0 30px 0;
-  color: rgb(66, 66, 66);
+  font-family: 'Abril Fatface';
+  margin: 10px 0 30px 0;
+  color: rgb(14, 106, 102);
   font-weight: 300;
+  font-size: 40px;
 }
 
 .project-card {

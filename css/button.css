@@ -1,14 +1,10 @@
-.btns-green {
+.btn {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  margin: 10px auto;
-  max-width: 600px;
 }
 
 .btn-green {
-  display: inline;
-  justify-content: space-evenly;
   width: 230px;
   font-size: 14px;
   font-weight: 400;

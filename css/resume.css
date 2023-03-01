@@ -1,5 +1,8 @@
 h2 {
   text-align: center;
+  margin: 20px;
+  font-family: 'Abril Fatface';
+  color: rgb(14, 106, 102);
 }
 
 .resume-container {
@@ -7,23 +10,22 @@ h2 {
   margin-top: 50px;
 }
 
-h4 {
-  align-self: center;
-  font-weight: 300;
-}
-
-.resume-description {
+.resume-header {
   display: flex;
   justify-content: space-between;
 }
 
-.resume-description h2 {
-  text-align: center;
-  color: rgb(66, 66, 66);
+.resume-text {
+  align-self: center;
   font-weight: 300;
 }
 
-.resume-description p {
+.resume-text h4 {
+  align-self: center;
+  font-weight: 300;
+}
+
+.resume-text p {
   font-weight: 300;
 }
 
@@ -32,4 +34,21 @@ h4 {
   border-radius: 50%;
   margin: 30px;
   border: solid 2px darkslategray;
+}
+
+.tech-stack {
+  display: inline;
+}
+
+.skills li {
+  display: inline;
+  font-size: 15px;
+  border: black 1px solid;
+  border: 1px solid #4a4a4a;
+  padding: 7px;
+  margin: 5px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
 }
