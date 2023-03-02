@@ -2,7 +2,7 @@
 @import url('resume.css');
 @import url('button.css');
 @import url('footer.css');
-@import url('resume1.css');
+@import url('resume.css');
 
 /* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;800&family=Quicksand:wght@300&display=swap');
@@ -91,10 +91,10 @@ h1 {
   display: flex;
   justify-content: center;
   text-align: center;
-  color: rgb(14, 106, 102);
+  /* color: rgb(14, 106, 102); */
   font-size: 40px;
   font-family: 'Montserrat';
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
 }
 
@@ -139,9 +139,9 @@ h1 {
 .project-heading h1 {
   text-align: center;
   font-family: 'Montserrat';
-  margin: 40px 0 10px 0;
-  color: rgb(14, 106, 102);
-  font-weight: 400;
+  margin: 40px 0 0px 0;
+  /* color: rgb(14, 106, 102); */
+  font-weight: 300;
   text-transform: uppercase;
   font-size: 25px;
 }
@@ -179,7 +179,7 @@ h1 {
   font-weight: bold;
   border: 1px rgb(246, 246, 246) solid;
   border-radius: 20px;
-  box-shadow: 0.5rem 0.5rem #79c4bc;
+  box-shadow: 0.5rem 0.5rem #d2e8e6;
 }
 
 .project-card-des {
