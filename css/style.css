@@ -5,7 +5,7 @@
 @import url('resume1.css');
 
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;800&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;800&family=Quicksand:wght@300&display=swap');
 
 /* Reset default styles */
 * {
@@ -23,12 +23,6 @@ body {
   background-color: rgb(237, 237, 229);
   z-index: -2;
   margin-top: 80px;
-}
-
-h1 {
-  font-size: 45px;
-  font-weight: 200;
-  /* margin: 10px 0; */
 }
 
 h3 {
@@ -65,19 +59,43 @@ li p {
 }
 
 #about-text h1 {
-  display: flex;
   font-family: 'Quicksand';
-  justify-content: left;
+  color: #333;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 200;
+}
+
+#about-text p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Quicksand';
   /* margin: 20px; */
-  top: 0;
+  color: #333;
+}
+
+#about-text h3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Quicksand';
+  /* margin: 20px; */
   color: #333;
 }
 
 .about-text .name {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   color: rgb(14, 106, 102);
-  font-size: 50px;
+  font-size: 40px;
   font-family: 'Montserrat';
-  font-weight: 600;
+  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .animated-img {
@@ -114,18 +132,18 @@ li p {
 /* Project section */
 
 .project-container {
-  background-color: #dce7e1;
-  padding: 30px 70px 70px 70px;
-  margin-top: 70px;
+  padding: 10px 70px 70px 70px;
+  margin-top: 10px;
 }
 
 .project-heading h1 {
   text-align: center;
   font-family: 'Montserrat';
-  margin: 10px 0 30px 0;
+  margin: 40px 0 10px 0;
   color: rgb(14, 106, 102);
-  font-weight: 300;
-  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 25px;
 }
 
 .project-card {
@@ -139,9 +157,10 @@ li p {
   display: flex;
   flex-direction: column;
 }
+
 .project-card-info p {
-  font-size: 15px;
-  font-weight: 400;
+  font-size: 17px;
+  font-weight: 600;
   text-align: center;
   padding-bottom: 10px;
   color: #333;
@@ -158,16 +177,21 @@ li p {
   color: white;
   font-size: 16px;
   font-weight: bold;
-  border-radius: 10px;
-  box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+  border: 1px rgb(246, 246, 246) solid;
+  border-radius: 20px;
+  box-shadow: 0.5rem 0.5rem #79c4bc;
+}
+
+.project-card-des {
+  margin-top: 30px;
 }
 
 .devicon-icons {
-  display: inline;
   text-align: center;
   color: rgb(14, 106, 102);
   padding-bottom: 10px;
   font-family: 'Quicksand';
+  padding-bottom: 30px;
 }
 
 /* Responsive styles */
