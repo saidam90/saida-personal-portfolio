@@ -5,13 +5,11 @@ body {
 
 .container {
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
   background-color: rgb(237, 237, 229);
-  max-width: 100%;
-  margin: auto;
-  padding: 50px;
-  column-gap: 5%;
-  row-gap: 30px;
+  margin: 0 auto;
+  /* gap: 5px; */
 }
 
 .resume-header {
@@ -80,6 +78,35 @@ body {
   max-width: 100%;
   margin: 0 auto;
   width: 60%;
+  padding-top: 30px;
+}
+
+.container .education {
+  width: 50%;
+}
+
+.education {
+  list-style: none;
+}
+
+.container .project {
+  width: 30%;
+}
+
+.container .skill {
+  width: 30%;
+}
+
+.container .experience {
+  width: 30%;
+}
+
+.container .scholarship {
+  width: 40%;
+}
+
+.container .hobby {
+  width: 40%;
 }
 
 .project {
@@ -91,8 +118,6 @@ body {
 }
 
 .project ul {
-  padding: 0;
-  margin: 0;
   list-style: none;
 }
 
@@ -101,7 +126,6 @@ body {
 }
 
 .experience {
-  padding-left: 30px;
   text-align: justify;
   border-left: 1px solid #000;
 }
@@ -110,21 +134,15 @@ body {
   margin: 20px 0 10px;
 }
 
-.experience .web {
-  color: #0c7373;
-  padding: 10px 0;
-}
-
-.experience .location {
+.experience .company {
   font-weight: 500;
-  padding-bottom: 10px;
 }
 
-.experience .item {
+.experience .experience-item {
   position: relative;
 }
 
-.experience .item::before {
+.experience .experience-item::before {
   position: absolute;
   width: 13px;
   height: 13px;
@@ -136,13 +154,10 @@ body {
 
 .skill {
   text-align: left;
-  padding-right: 30px;
   text-align: justify;
 }
 
 .skill ul {
-  padding: 0;
-  margin: 0;
   list-style: none;
 }
 
