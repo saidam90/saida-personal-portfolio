@@ -5,14 +5,41 @@ body {
 
 .container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  gap: 10px;
+  padding: 20px;
   background-color: rgb(237, 237, 229);
   margin: 20px auto;
   font-size: 14px;
+  max-width: 1200px;
+}
+
+.container .section {
+  background-color: rgb(237, 237, 229);
+  font-size: 14px;
+}
+
+.section .section-name {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section .subsection {
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center;
+}
+
+.section {
+  list-style: none;
+  padding: 20px;
 }
 
 /* Header */
+
 .resume-header {
   display: flex;
   justify-content: space-around;
@@ -86,48 +113,55 @@ body {
 
 /* Education */
 .logo-small {
-  width: 35px;
-  padding: 10px;
+  width: 60px;
+  padding-right: 22px;
+  height: 40px;
 }
 
-.education {
+.education-des .name-date {
   display: flex;
-  flex-direction: column;
-  list-style: none;
-  padding: 40px;
+  justify-content: space-between;
+}
+
+.education h2 {
+  padding-bottom: 10px;
 }
 
 .education-item .education-name {
-  font-weight: 500;
+  font-weight: 600;
   font-family: 'Montserrat';
 }
 
 .education-item {
-  display: inline-flex;
-  padding: 5px;
+  /* display: flex; */
+  padding: 3px;
+  width: 400px;
 }
 
-.education-item p {
-  font-weight: 500;
+.education-des {
+  padding: 3px;
 }
+
+/* .education-item p {
+  font-weight: 500;
+  align-self: center;
+} */
 
 /* Skills */
-.skill {
-  text-align: left;
-  text-align: justify;
-}
 
 .skill ul {
-  list-style: none;
+  /* list-style: none; */
   padding: 10px;
 }
 
 .skill li {
+  font-family: 'Montserrat';
+  font-weight: 500;
   display: inline;
   padding: 7px 10px;
   line-height: 35px;
   font-size: 12px;
-  color: rgb(6, 100, 99);
+  color: rgb(5, 84, 83);
   border: 1px solid rgb(6, 100, 99);
   border-radius: 4rem;
 }
@@ -137,10 +171,6 @@ body {
 }
 
 /* Project */
-
-.project {
-  text-align: left;
-}
 
 .project h4 {
   margin: 20px 0 10px;
@@ -155,28 +185,12 @@ body {
 }
 
 /* Experience */
-.experience {
-  text-align: justify;
-}
 
 .experience h4 {
   margin: 20px 0 10px;
 }
 
 .experience .company {
-  font-weight: 500;
+  font-weight: 600;
+  font-family: 'Montserrat';
 }
-
-.experience .experience-item {
-  position: relative;
-}
-
-/* .experience .experience-item::before {
-  position: absolute;
-  width: 13px;
-  height: 13px;
-  background-color: #000;
-  content: '';
-  border-radius: 50%;
-  left: -37px;
-} */
