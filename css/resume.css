@@ -1,12 +1,13 @@
 h2 {
   text-align: center;
   margin: 20px;
-  font-family: 'Abril Fatface';
+  font-family: 'Montserrat';
   color: rgb(14, 106, 102);
+  font-weight: 500;
 }
 
 .resume-container {
-  padding: 20px 70px 70px 70px;
+  padding: 10px 70px 70px 70px;
   margin-top: 50px;
 }
 
@@ -34,10 +35,6 @@ h2 {
   border-radius: 50%;
   margin: 30px;
   border: solid 2px darkslategray;
-}
-
-.tech-stack {
-  display: inline;
 }
 
 .skills li {

@@ -1,0 +1,150 @@
+body {
+  background-color: rgb(237, 237, 229);
+  font-family: 'Quicksand';
+}
+
+.container {
+  background-color: rgb(237, 237, 229);
+  width: 1000px;
+  max-width: 100%;
+  margin: auto;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  column-gap: 5%;
+  row-gap: 30px;
+}
+
+.avatar img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.avatar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.resume-name {
+  padding-left: 30px;
+  border-left: 1px solid #000;
+}
+
+.resume-name h1 {
+  font-weight: 300;
+  color: rgb(14, 106, 102);
+  font-family: 'Montserrat';
+  font-size: xxx-large;
+  margin: 0px 0 5px;
+}
+
+.resume-name .specialize {
+  margin: 0;
+  font-weight: bold;
+  font-size: 24px;
+  letter-spacing: 3px;
+}
+
+.resume-name .contact {
+  padding: 0;
+  list-style: none;
+}
+
+.resume-name .contact li {
+  padding: 10px 0;
+}
+
+.info ul {
+  padding: 0;
+  margin: 0px;
+  list-style: none;
+  text-align: center;
+  line-height: 30px;
+}
+
+.intro {
+  text-align: center;
+  max-width: 100%;
+  margin: auto;
+  padding: 0 278px;
+}
+
+.project {
+  text-align: left;
+}
+
+.project h4 {
+  margin: 20px 0 10px;
+}
+
+.project ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.project li {
+  padding: 10px 0;
+}
+
+.experience {
+  padding-left: 30px;
+  text-align: justify;
+  border-left: 1px solid #000;
+}
+
+.experience h4 {
+  margin: 20px 0 10px;
+}
+
+.experience .web {
+  color: #0c7373;
+  padding: 10px 0;
+}
+
+.experience .location {
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.experience .item {
+  position: relative;
+}
+
+.experience .item::before {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-color: #000;
+  content: '';
+  border-radius: 50%;
+  left: -37px;
+}
+
+.skill {
+  text-align: left;
+  padding-right: 30px;
+  text-align: justify;
+}
+
+.skill ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.skill li {
+  display: inline;
+  padding: 7px 10px;
+  line-height: 35px;
+  font-size: 12px;
+  border: 1px solid black;
+  border-radius: 4rem;
+}
+
+.skill h4 {
+  margin: 20px 0 10px;
+}
