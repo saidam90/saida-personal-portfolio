@@ -16,6 +16,7 @@ body {
 .container .section {
   background-color: rgb(237, 237, 229);
   font-size: 14px;
+  font-weight: 400;
 }
 
 .section .section-name {
@@ -24,6 +25,7 @@ body {
   font-size: 25px;
   text-transform: uppercase;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .section .subsection {
@@ -36,6 +38,7 @@ body {
 .section {
   list-style: none;
   padding: 20px;
+  /* border: 1px black solid; */
 }
 
 /* Header */
@@ -107,45 +110,41 @@ body {
   text-align: center;
   max-width: 100%;
   margin: 0 auto;
-  width: 60%;
-  padding: 20px 0;
+  width: 72%;
+  padding: 40px 0 20px 0;
 }
 
 /* Education */
 .logo-small {
-  width: 60px;
-  padding-right: 22px;
+  width: 40px;
   height: 40px;
-}
-
-.education-des .name-date {
-  display: flex;
-  justify-content: space-between;
 }
 
 .education h2 {
   padding-bottom: 10px;
 }
 
-.education-item .education-name {
-  font-weight: 600;
-  font-family: 'Montserrat';
-}
-
 .education-item {
-  /* display: flex; */
-  padding: 3px;
-  width: 400px;
+  display: flex;
+  gap: 10px;
+  margin: 10px;
 }
 
 .education-des {
   padding: 3px;
+  width: 100%;
 }
 
-/* .education-item p {
-  font-weight: 500;
-  align-self: center;
-} */
+.education-item .education-header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Montserrat';
+  font-weight: 600;
+}
+
+.education-info {
+  padding-top: 5px;
+}
 
 /* Skills */
 
@@ -167,7 +166,7 @@ body {
 }
 
 .skill h4 {
-  margin: 20px 0 10px;
+  margin: 10px 0 10px;
 }
 
 /* Project */

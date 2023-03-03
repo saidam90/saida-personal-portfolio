@@ -5,15 +5,12 @@
 @import url('resume.css');
 
 /* Google fonts */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;800&family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;800&family=Quicksand:wght@300;400&display=swap');
 
 /* Reset default styles */
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
-  box-sizing: border-box;
 }
 
 body {
@@ -168,7 +165,7 @@ h1 {
 .project-card-img {
   background-size: cover;
   background-position: center;
-  width: 350px;
+  width: 330px;
   height: 250px;
   display: flex;
   justify-content: center;
