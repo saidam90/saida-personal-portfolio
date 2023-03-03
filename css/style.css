@@ -52,7 +52,7 @@ li p {
   align-items: center;
   margin: 10px auto;
   padding: 0px 60px 0px 60px;
-  max-width: 750px;
+  max-width: 600px;
 }
 
 #about-text h1 {
@@ -184,7 +184,7 @@ h1 {
 
 .devicon-icons {
   text-align: center;
-  color: rgb(14, 106, 102);
+  color: rgb(147, 147, 147);
   padding-bottom: 10px;
   font-family: 'Quicksand';
   padding-bottom: 30px;
