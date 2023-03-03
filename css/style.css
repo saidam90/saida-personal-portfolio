@@ -11,7 +11,6 @@
 * {
   margin: 0px;
   padding: 0px;
-  text-align: center;
 }
 
 body {
@@ -56,10 +55,12 @@ li p {
   max-width: 600px;
 }
 
-#about-text h1 {
+#about h1 {
   font-family: 'Quicksand';
   color: #333;
-  font-size: 20px;
+  font-size: 40px;
+  margin-bottom: 7px;
+  text-align: center;
 }
 
 h1 {
@@ -67,16 +68,17 @@ h1 {
   font-weight: 200;
 }
 
-#about-text p {
+.about-text p {
   display: flex;
   justify-content: center;
   text-align: center;
   font-family: 'Quicksand';
   color: #333;
-  margin-bottom: 20px;
+  font-size: 18px;
+  margin-bottom: 7px;
 }
 
-#about-text h3 {
+.about-text h3 {
   display: flex;
   justify-content: center;
   text-align: center;
