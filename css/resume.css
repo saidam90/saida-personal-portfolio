@@ -5,12 +5,33 @@ body {
 
 .container {
   display: flex;
-  gap: 10px;
-  padding: 20px 20px 0 20px;
+  flex-wrap: wrap;
   background-color: rgb(237, 237, 229);
-  margin: 20px auto 0 auto;
   font-size: 14px;
   max-width: 1200px;
+  margin: 0 auto;
+}
+
+.column {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Quicksand';
+  font-weight: 400;
 }
 
 .container .section {
@@ -21,25 +42,21 @@ body {
   padding-bottom: 0;
 }
 
-.section {
-  list-style: none;
-  padding: 20px;
-}
-
 .section .section-name {
-  font-family: 'Montserrat';
+  font-family: 'Quicksand';
   font-weight: 400;
   font-size: 20px;
   text-align: center;
-  padding-bottom: 15px;
+  padding: 15px 0 10px 0;
 }
 
 .section .subsection {
-  font-family: 'Montserrat';
-  font-weight: 600;
-  font-size: 14px;
-  margin-bottom: 5px;
-  text-align: center;
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-size: 13px;
+  margin: 0;
+  padding: 7px 0 0px 0;
+  text-align: left;
 }
 
 /* Header */
@@ -80,8 +97,9 @@ body {
 }
 
 .resume-name .resume-specialize {
+  font-family: 'Quicksand';
   margin: 0;
-  font-weight: bold;
+  font-weight: 400;
   font-size: 24px;
   letter-spacing: 3px;
 }
@@ -95,10 +113,16 @@ body {
   padding: 5px 0;
 }
 
+.resume-contact a {
+  font-family: 'Quicksand';
+  font-weight: 500;
+}
+
 /* Intro */
 
 .intro {
   display: flex;
+  font-size: 14px;
   justify-content: center;
   text-align: center;
   max-width: 100%;
@@ -132,9 +156,9 @@ body {
 .education-item .section-header {
   display: flex;
   justify-content: space-between;
-  font-family: 'Montserrat';
-  font-weight: 600;
-  margin-bottom: 5px;
+  font-family: 'Quicksand';
+  font-weight: 700;
+  margin-bottom: 3px;
 }
 
 /* Skills */
@@ -144,7 +168,7 @@ body {
 }
 
 .skill ul {
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .skill li {
@@ -153,7 +177,7 @@ body {
   display: inline;
   padding: 7px 10px;
   line-height: 35px;
-  font-size: 12px;
+  font-size: 10px;
   background-color: rgb(255, 255, 255);
   color: rgb(5, 84, 83);
   border: 1px solid rgb(6, 100, 99);
@@ -175,16 +199,16 @@ body {
 }
 
 .section .project-name {
-  font-family: 'Montserrat';
+  font-family: 'Quicksand';
   font-weight: 400;
-  font-size: 20px;
   text-align: center;
-  padding: 0px 0 30px 0;
+  padding: 30px 0 30px 0;
 }
 
 .project-item a {
-  font-family: 'Montserrat';
-  font-weight: 500;
+  font-family: 'Quicksand';
+  font-weight: 700;
+  padding-top: 5px;
 }
 
 .project-item .info {
@@ -192,8 +216,8 @@ body {
 }
 
 .project li {
-  padding: 2px 10px;
-  margin-left: 0px;
+  padding: 7px 10px;
+  font-size: 10px;
 }
 
 /* Experience */
@@ -207,6 +231,10 @@ body {
   padding: 20px 0 20px 0;
 }
 
+.experience-section li {
+  font-size: 13px;
+}
+
 .experience-item {
   display: flex;
   margin: 10px 0 10px 0;
@@ -217,8 +245,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-family: 'Montserrat';
-  font-weight: 600;
+  font-family: 'Quicksand';
+  font-weight: 700;
   margin-bottom: 7px;
 }
 
@@ -230,47 +258,38 @@ body {
   margin-bottom: 5px;
 }
 
-/* Scholarship */
+/* Scholarships */
 
 .scholarship li {
-  margin: 5px;
+  margin: 5px 0 0 45px;
+  list-style: none;
 }
 
-.scholarship .section-name {
-  margin-top: 4px;
+/* Hobbies */
+
+.hobby p {
+  margin: 5px 0 0 45px;
+}
+
+.hobby .section-name {
+  margin-top: 10px;
 }
 
 /* Map */
 
 .mapbox .section-name {
-  margin: 0;
-  padding-bottom: 20px;
+  text-align: center;
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 
 .map-des {
   text-align: center;
+  font-size: 14px;
+  list-style: none;
+  margin-bottom: 20px;
 }
 
 /* Media queries */
-
-@media only screen and (max-width: 600px) {
-  .resume-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .resume-avatar img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-  }
-
-  .resume-name {
-    text-align: center;
-  }
-
-  .resume-contact li {
-    margin-bottom: 10px;
-  }
-}
