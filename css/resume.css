@@ -301,9 +301,14 @@ body {
     gap: 2rem;
   }
 
+  .container {
+    margin: 0 10px;
+  }
+
   .resume-avatar img {
     width: 150px;
     height: 150px;
+    margin: 0 auto;
   }
 
   .resume-name h1 {
@@ -320,5 +325,21 @@ body {
 
   .resume-contact li i {
     font-size: 1.2rem;
+  }
+
+  .mapbox {
+    margin: 0 20px;
+  }
+
+  .mapbox li {
+    margin: 0 20px;
+  }
+
+  .hobby p {
+    margin: 0 20px;
+  }
+
+  .scholarship li {
+    margin: 0 20px;
   }
 }
