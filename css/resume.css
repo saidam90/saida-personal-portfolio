@@ -250,3 +250,27 @@ body {
 .map-des {
   text-align: center;
 }
+
+/* Media queries */
+
+@media only screen and (max-width: 600px) {
+  .resume-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .resume-avatar img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .resume-name {
+    text-align: center;
+  }
+
+  .resume-contact li {
+    margin-bottom: 10px;
+  }
+}
