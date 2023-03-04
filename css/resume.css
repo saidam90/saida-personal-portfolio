@@ -21,6 +21,11 @@ body {
   padding-bottom: 0;
 }
 
+.section {
+  list-style: none;
+  padding: 20px;
+}
+
 .section .section-name {
   font-family: 'Montserrat';
   font-weight: 400;
@@ -35,12 +40,6 @@ body {
   font-size: 14px;
   margin-bottom: 5px;
   text-align: center;
-}
-
-.section {
-  list-style: none;
-  padding: 20px;
-  /* border: 1px black solid; */
 }
 
 /* Header */
@@ -109,6 +108,7 @@ body {
 }
 
 /* Education */
+
 .logo-small {
   width: 40px;
   height: 40px;
@@ -139,8 +139,11 @@ body {
 
 /* Skills */
 
+.skill {
+  margin-bottom: 0;
+}
+
 .skill ul {
-  /* list-style: none; */
   padding: 10px 0;
 }
 
@@ -188,10 +191,6 @@ body {
   margin-top: 10px;
 }
 
-.ul skill-item {
-  list-style: none;
-}
-
 .project li {
   padding: 2px 10px;
   margin-left: 0px;
@@ -203,10 +202,14 @@ body {
   margin: 20px 0 10px;
 }
 
+.experience-section {
+  list-style: none;
+  padding: 20px 0 20px 0;
+}
+
 .experience-item {
   display: flex;
   margin: 10px 0 10px 0;
-  /* margin-left: 0; */
   padding: 0;
 }
 
@@ -227,22 +230,7 @@ body {
   margin-bottom: 5px;
 }
 
-/* .other-sections {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 10px;
-  padding: 20px;
-  margin: 20px auto;
-  font-size: 14px;
-  width: 1200px;
-} */
-
-.experience-section {
-  list-style: none;
-  padding: 20px 0 20px 0;
-  /* border: 1px black solid; */
-}
+/* Scholarship */
 
 .scholarship li {
   margin: 5px;
@@ -252,11 +240,8 @@ body {
   margin-top: 4px;
 }
 
-.skill {
-  margin-bottom: 0;
-}
-
 /* Map */
+
 .mapbox .section-name {
   margin: 0;
   padding-bottom: 20px;

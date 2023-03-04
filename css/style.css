@@ -8,6 +8,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500;600;800&family=Quicksand:wght@300;400&display=swap');
 
 /* Reset default styles */
+
 * {
   margin: 0px;
   padding: 0px;
@@ -44,7 +45,7 @@ li p {
   font-size: 0.8em;
 }
 
-/* "About" section */
+/* About*/
 
 #about {
   display: flex;
@@ -127,7 +128,7 @@ h1 {
   }
 }
 
-/* Project section */
+/* Project */
 
 .project-container {
   padding: 10px 70px 70px 70px;
@@ -177,6 +178,11 @@ h1 {
   border: 1px rgb(246, 246, 246) solid;
   border-radius: 20px;
   box-shadow: 0.5rem 0.5rem #d2e8e6;
+  transition: transform 0.4s;
+}
+
+.project-card-img:hover {
+  transform: scale(1.1);
 }
 
 .project-card-des {
@@ -192,6 +198,7 @@ h1 {
 }
 
 /* Responsive styles */
+
 @media only screen and (max-width: 600px) {
   header {
     padding: 10px;
