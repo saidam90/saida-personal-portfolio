@@ -240,6 +240,9 @@ h1 {
   .btn button {
     font-size: 1rem;
     padding: 12px 20px;
+  }
+
+  button {
     color: #000;
   }
 }
