@@ -53,7 +53,7 @@ li p {
   align-items: center;
   margin: 10px auto;
   padding: 0px 60px 0px 60px;
-  max-width: 600px;
+  max-width: 400px;
 }
 
 #about h1 {
@@ -84,7 +84,8 @@ h1 {
   justify-content: center;
   text-align: center;
   font-family: 'Quicksand';
-  font-weight: 200;
+  font-size: 19px;
+  font-weight: 400;
   color: #333;
 }
 
@@ -139,7 +140,7 @@ h1 {
   text-align: center;
   font-family: 'Quicksand';
   margin: 40px 0 0px 0;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
   font-size: 25px;
 }
@@ -239,7 +240,7 @@ h1 {
   .btn button {
     font-size: 1rem;
     padding: 12px 20px;
-    font: black;
+    color: #000;
   }
 }
 
