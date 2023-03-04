@@ -293,3 +293,32 @@ body {
 }
 
 /* Media queries */
+
+@media screen and (max-width: 768px) {
+  .resume-header {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .resume-avatar img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .resume-name h1 {
+    font-size: 2rem;
+  }
+
+  .resume-specialize {
+    font-size: 1.2rem;
+  }
+
+  .resume-contact li {
+    margin-bottom: 0.5rem;
+  }
+
+  .resume-contact li i {
+    font-size: 1.2rem;
+  }
+}
