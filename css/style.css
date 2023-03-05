@@ -13,6 +13,11 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Quicksand';
+  transition: all 0.2s linear;
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
@@ -189,6 +194,93 @@ h1 {
 
 .project-card-des {
   margin-top: 30px;
+}
+
+/* Modal - project preview */
+
+.modal {
+  top: 50%;
+  left: 50%;
+  width: 320px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  text-align: center;
+  border-radius: 20px;
+  padding: 30px 30px 60px;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  margin: 30px;
+  border-radius: 10px;
+  /* box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.3); */
+  background-color: rgb(255, 255, 255);
+  z-index: 10;
+}
+
+.modal h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.modal p {
+  margin-bottom: 5px;
+  font-size: 13px;
+}
+
+.modal .close-button {
+  width: 15px;
+  font-size: 15px;
+  color: #4b4b4b;
+  align-self: flex-end;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 0px;
+}
+
+.modal .modal-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.show-modal-one,
+.show-modal-two {
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.close-modal-one,
+.close-modal-two {
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  font-size: 5rem;
+  color: #333;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 250vh;
+  background-color: rgba(106, 106, 106, 0.6);
+  backdrop-filter: blur(3px);
+  z-index: 5;
+}
+
+.modal-preview {
+  width: 110px;
 }
 
 .devicon-icons {
