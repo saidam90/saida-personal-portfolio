@@ -363,8 +363,6 @@ h1 {
   }
 
   .modal {
-    display: flex;
-    justify-content: center;
     width: 70%;
     padding: 20px;
     margin: 0 auto;
@@ -378,13 +376,24 @@ h1 {
     font-size: 12px;
   }
 
-  .modal .btn button {
+  .modal button {
     font-size: 1rem;
     padding: 12px 20px;
   }
 
   .modal-preview {
     width: 80px;
+  }
+
+  .overlay {
+    position: fixed;
+    height: 100%;
+    width: 100vh;
+    top: 0;
+    left: 0;
+    background-color: rgba(106, 106, 106, 0.6);
+    backdrop-filter: blur(3px);
+    z-index: 5;
   }
 }
 
