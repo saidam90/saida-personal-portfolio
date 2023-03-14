@@ -22,6 +22,11 @@ This is my personal portfolio website where I showcase my work, skills, and expe
 - CSS3
 - JavaScript
 
+Version control & deployment
+
+- [GitHub](https://github.com/saidam90)
+- [Digital Ocean](https://www.saidamurtazali.com/)
+
 
 ## Features
 - A clean and modern design
