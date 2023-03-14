@@ -18,9 +18,9 @@ This is my personal portfolio website where I showcase my work, skills, and expe
 
 
 ## Technologies Used
-- HTML5
-- CSS3
-- JavaScript
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://www.javascript.com/)
 
 Version control & deployment
 
