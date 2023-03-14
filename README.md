@@ -5,7 +5,7 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Features](#features)
-* [Screenshots](#screenshots)
+* [Animated GIFs](#animated-gifs)
 * [Setup](#setup)
 * [Usage](#usage)
 * [Project Status](#project-status)
@@ -25,16 +25,21 @@ This is my personal portfolio website where I showcase my work, skills, and expe
 
 ## Features
 - A clean and modern design
-- A section showcasing my work, including projects I have worked on, and links to relevant GitHub repositories and live demos
+- A section showcasing projects I have worked on, and links to relevant GitHub repositories and live demos
 - A section showcasing my skills and technologies I'm proficient in
 - A section showcasing my experiences and education
 - Contact details for visitors to reach out to me
 - PDF copy of my resume that visitors can download
 
 
-## Screenshots
-![Example screenshot](./img/screenshot.png)
-<!-- If you have screenshots you'd like to share, include them here. -->
+## Animated GIFs
+Section showcasing projects and links:
+
+![ezgif com-video-to-gif (1)](https://user-images.githubusercontent.com/74564476/225046311-7a16abac-a859-4685-bc0e-47d739eb0af2.gif)
+
+Resume page and CV download:
+
+![ezgif com-video-to-gif (2)](https://user-images.githubusercontent.com/74564476/225048284-b3242057-86f2-41ba-9709-933a4fa10be0.gif)
 
 
 ## Setup
