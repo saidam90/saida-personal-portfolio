@@ -43,14 +43,48 @@ Resume page and CV download:
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+**Installation**
 
+1. Clone this repository to your local machine using the following command:
+```
+git clone https://github.com/[your-username]/[your-repo-name].git
+```
+2. Navigate to the project directory in your terminal or command prompt.
+```
+cd [your-repo-name]
+```
+3. Open the `index.html` file in your web browser to view the website.
+```
+open index.html
+```
 
 ## Usage
-To run the website, simply open the `index.html` file in your web browser. Alternatively, you can deploy the website to a hosting service such as GitHub Pages or Netlify.
 
+To use this project, you'll need a text editor and a web browser installed on your computer. I recommend using [Visual Studio Code](https://code.visualstudio.com/) as your text editor and the latest version of Google Chrome or Mozilla Firefox as your web browser.
+
+To customize the website with your own content:
+
+1. Open the project directory in your favorite code editor.
+2. Modify the HTML, CSS, and JavaScript files to include your own content and styling.
+3. Save your changes and refresh the index.html file in your web browser to preview the changes.
+4. Once you are satisfied with your changes, commit and push them to your GitHub repository.
+
+```
+it add .
+git commit -m "Update portfolio content"
+git push
+```
+5. Your changes will now be live on your portfolio website!
+
+**Deployment**
+
+To deploy your portfolio website to a hosting service such as GitHub Pages or Netlify, follow these steps:
+
+1. Create a new repository on GitHub and push your portfolio website code to it.
+2. Enable GitHub Pages or create a new site on Heroku.
+3. Follow the instructions provided by the hosting service to configure your site settings and deploy your website.
+4. Once your website is deployed, share the URL with your friends, family, and potential employers!
 
 ## Project Status
 Project is complete.
