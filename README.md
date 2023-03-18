@@ -84,12 +84,11 @@ git push
 
 **Deployment**
 
-To deploy your portfolio website to a hosting service such as GitHub Pages or Netlify, follow these steps:
+To deploy your portfolio website to a hosting service such as GitHub Pages or Heroku, follow these steps:
 
 1. Create a new repository on GitHub and push your portfolio website code to it.
 2. Enable GitHub Pages or create a new site on Heroku.
 3. Follow the instructions provided by the hosting service to configure your site settings and deploy your website.
-4. Once your website is deployed, share the URL with your friends, family, and potential employers!
 
 ## Project Status
 Project is complete.
