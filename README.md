@@ -76,7 +76,7 @@ To customize the website with your own content:
 4. Once you are satisfied with your changes, commit and push them to your GitHub repository.
 
 ```
-it add .
+git add .
 git commit -m "Update portfolio content"
 git push
 ```
