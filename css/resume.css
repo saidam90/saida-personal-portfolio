@@ -4,8 +4,8 @@ body {
 }
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   background-color: rgb(237, 237, 229);
   font-size: 14px;
   max-width: 1200px;
@@ -52,8 +52,7 @@ body {
 
 .section .subsection {
   font-family: 'Quicksand';
-  font-weight: 400;
-  font-size: 13px;
+  font-weight: 600;
   margin: 0;
   padding: 7px 0 0px 0;
   text-align: left;
@@ -175,12 +174,10 @@ body {
   font-family: 'Montserrat';
   font-weight: 500;
   display: inline;
-  padding: 7px 10px;
+  padding: 5px 10px;
   line-height: 35px;
   font-size: 10px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(5, 84, 83);
-  border: 1px solid rgb(6, 100, 99);
+  color: rgb(72, 81, 74);
   border-radius: 4rem;
 }
 
@@ -196,6 +193,7 @@ body {
 
 .project-item .section-header {
   font-weight: 600;
+  padding: 5px 5px 0 0;
 }
 
 .section .project-name {
@@ -215,9 +213,17 @@ body {
   margin-top: 10px;
 }
 
+.project-item .project-links {
+  display: flex;
+  list-style: none;
+}
+
+.project .link {
+  padding: 5px 5px;
+}
+
 .project li {
-  padding: 7px 10px;
-  font-size: 10px;
+  padding: 5px 10px;
 }
 
 /* Experience */
