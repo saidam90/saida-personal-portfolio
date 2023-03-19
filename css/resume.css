@@ -222,6 +222,11 @@ body {
 
 .project .link {
   padding: 5px 5px;
+  color: rgb(94, 94, 94);
+}
+
+.project .link:hover {
+  color: rgb(29, 29, 29);
 }
 
 .project li {
