@@ -211,13 +211,10 @@ body {
   padding-top: 5px;
 }
 
-.project-item .info {
-  margin-top: 10px;
-}
-
 .project-item .project-links {
   display: flex;
   list-style: none;
+  margin-top: 10px;
 }
 
 .project .link {
