@@ -44,8 +44,7 @@ Section showcasing projects and links:
 
 Resume page and CV download:
 
-![ezgif com-video-to-gif (2)](https://user-images.githubusercontent.com/74564476/225048284-b3242057-86f2-41ba-9709-933a4fa10be0.gif)
-
+![ezgif com-video-to-gif (3)](https://user-images.githubusercontent.com/74564476/226915177-a5874c15-0bbd-4fc5-b276-b30326d33b8f.gif)
 
 ## Setup
 
