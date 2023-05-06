@@ -12,11 +12,16 @@
 
       gtag('config', 'G-2940GH5W9Y');
 
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-KRQ8LDZ');
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-KRQ8LDZ');
     </script>
 
     <meta charset="UTF-8" />
@@ -31,9 +36,8 @@
 
   <body>
     <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRQ8LDZ"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRQ8LDZ" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <header>
       <!-- Navigation bar -->
       <nav>
@@ -75,7 +79,7 @@
         <div class="project-heading">
           <h1>Projects</h1>
         </div>
-        <div class="project-card">
+        <div class="project-cards">
           <div class="project-card-info">
             <div class="project-card-des">
               <p>Re:readr</p>
@@ -84,7 +88,6 @@
                 <i class="devicon-javascript-plain" title="Javascript"></i>
                 <i class="devicon-rails-plain" title="Ruby on Rails"></i>
                 <i class="devicon-postgresql-plain" title="SQLite"></i>
-                <i class="devicon-figma-plain" title="Figma"></i>
               </div>
             </div>
             <img src="/assets/project-1.png" class="project-card-img show-modal-one" alt="" />
@@ -98,7 +101,6 @@
                 <i class="devicon-javascript-plain" title="Javascript"></i>
                 <i class="devicon-rails-plain" title="Ruby on Rails"></i>
                 <i class="devicon-postgresql-plain" title="SQLite"></i>
-                <i class="devicon-figma-plain" title="Figma"></i>
               </div>
             </div>
             <img src="/assets/project-2.png" class="project-card-img show-modal-two" alt="" />
@@ -113,58 +115,84 @@
             </div>
             <img src="/assets/project-3.png" class="project-card-img show-modal-three" alt="" />
           </div>
-        </div>
-      </div>
 
-      <div class="modal modal-one hidden">
-        <button class="close-button close-modal-one">✖</button>
-        <img src="/assets/rereadr.gif" class="modal-preview" alt="" />
-        <h3>Re:readr</h3>
-        <p>A platform that allows you to exchange books.</p>
-        <div class="preview-buttons">
-          <a href="https://github.com/chantommyy/Re-readr" target="_blank">
-            <button class="btn-green" role="button">Github</button>
-          </a>
-          <a href="https://www.re-readr.co.uk/" target="_blank">
-            <button class="btn-green" role="button">Live demo</button>
-          </a>
+          <div class="project-card-info">
+            <div class="project-card-des">
+              <p>Monsters Rolodex</p>
+              <div class="devicon-icons">
+                <i class="devicon-react-plain" title="React"></i>
+                <i class="devicon-javascript-plain" title="Javascript"></i>
+              </div>
+            </div>
+            <img src="/assets/project-4.png" class="project-card-img show-modal-four" alt="" />
+          </div>
         </div>
-      </div>
-      <div class="overlay hidden"></div>
 
-      <div class="modal modal-two hidden">
-        <button class="close-button close-modal-two">✖</button>
-        <img src="/assets/fluffyfriend.gif" class="modal-preview" alt="" />
-        <h3>Fluffy friend</h3>
-        <p>A platform to borrow a pet if you can't commit to a pet full-time.</p>
-        <div class="preview-buttons">
-          <a href="https://github.com/saidam90/fluffy_friend" target="_blank">
-            <button class="btn-green" role="button">Github</button>
-          </a>
-          <a href="https://fluffy-friend.herokuapp.com/" target="_blank">
-            <button class="btn-green" role="button">Live demo</button>
-          </a>
+        <div class="modal modal-one hidden">
+          <button class="close-button close-modal-one">✖</button>
+          <img src="/assets/rereadr.gif" class="modal-preview" alt="" />
+          <h3>Re:readr</h3>
+          <p>A platform that allows you to exchange books.</p>
+          <div class="preview-buttons">
+            <a href="https://github.com/chantommyy/Re-readr" target="_blank">
+              <button class="btn-green" role="button">Github</button>
+            </a>
+            <a href="https://www.re-readr.co.uk/" target="_blank">
+              <button class="btn-green" role="button">Live demo</button>
+            </a>
+          </div>
         </div>
+        <div class="overlay hidden"></div>
+
+        <div class="modal modal-two hidden">
+          <button class="close-button close-modal-two">✖</button>
+          <img src="/assets/fluffyfriend.gif" class="modal-preview" alt="" />
+          <h3>Fluffy friend</h3>
+          <p>A platform to borrow a pet if you can't commit to a pet full-time.</p>
+          <div class="preview-buttons">
+            <a href="https://github.com/saidam90/fluffy_friend" target="_blank">
+              <button class="btn-green" role="button">Github</button>
+            </a>
+            <a href="https://fluffy-friend.herokuapp.com/" target="_blank">
+              <button class="btn-green" role="button">Live demo</button>
+            </a>
+          </div>
+        </div>
+        <div class="overlay hidden"></div>
+
+        <div class="modal modal-three hidden">
+          <button class="close-button close-modal-three">✖</button>
+          <img src="/assets/meditation.gif" class="modal-preview project-3" alt="" />
+          <h3>Meditation app</h3>
+          <p>Set a timer and desired sound for your meditation session.</p>
+          <div class="preview-buttons">
+            <a href="https://github.com/saidam90/meditation-app" target="_blank">
+              <button class="btn-green" role="button">Github</button>
+            </a>
+            <a href="https://saidam90.github.io/meditation-app/" target="_blank">
+              <button class="btn-green" role="button">Live demo</button>
+            </a>
+          </div>
+        </div>
+        <div class="overlay hidden"></div>
+
+        <div class="modal modal-four hidden">
+          <button class="close-button close-modal-four">✖</button>
+          <img src="/assets/meditation.gif" class="modal-preview project-4" alt="" />
+          <h3>Monsters Rolodex</h3>
+          <p>Fetching user data using React from an API and displaying it, along with a corresponding image.</p>
+          <div class="preview-buttons">
+            <a href="https://github.com/saidam90/monsters-rolodex" target="_blank">
+              <button class="btn-green" role="button">Github</button>
+            </a>
+            <a href="https://saidam90.github.io/monsters-rolodex/" target="_blank">
+              <button class="btn-green" role="button">Live demo</button>
+            </a>
+          </div>
+        </div>
+        <div class="overlay hidden"></div>
       </div>
-      <div class="overlay hidden"></div>
     </main>
-
-    <div class="modal modal-three hidden">
-      <button class="close-button close-modal-three">✖</button>
-      <img src="/assets/meditation.gif" class="modal-preview project-3" alt="" />
-      <h3>Meditation app</h3>
-      <p>Set a timer and desired sound for your meditation session.</p>
-      <div class="preview-buttons">
-        <a href="https://github.com/saidam90/meditation-app" target="_blank">
-          <button class="btn-green" role="button">Github</button>
-        </a>
-        <a href="https://saidam90.github.io/meditation-app/" target="_blank">
-          <button class="btn-green" role="button">Live demo</button>
-        </a>
-      </div>
-    </div>
-    <div class="overlay hidden"></div>
-  </main>
 
     <!-- Footer -->
     <footer>
@@ -172,7 +200,6 @@
         <div class="footer-links">
           <a href="https://github.com/saidam90" target="_blank"><i class="fab fa-github"></i></a>
           <a href="https://www.linkedin.com/in/saida-murtazali/" target="_blank"><i class="fab fa-linkedin"></i></a>
-          <a href="https://www.instagram.com/msaida_m/" target="_blank"><i class="fab fa-instagram"></i></a>
         </div>
         <div class="footer-copyright">Made with <i class="fas fa-heart"></i> by Saida</div>
       </div>
