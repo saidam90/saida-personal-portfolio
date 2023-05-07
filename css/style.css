@@ -163,7 +163,7 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  grid-gap: 50px;
+  gap: 10px 50px;
 }
 
 .project-card-info {
