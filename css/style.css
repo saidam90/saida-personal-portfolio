@@ -24,7 +24,7 @@ body {
   margin: 0px;
   padding: 0px;
   font-family: 'Quicksand', sans-serif;
-  background-color: rgb(237, 237, 229);
+  background-color: rgb(255, 255, 255);
   z-index: -2;
   margin-top: 80px;
 }
@@ -192,7 +192,7 @@ h1 {
   font-weight: bold;
   border: 1px rgb(246, 246, 246) solid;
   border-radius: 20px;
-  box-shadow: 0.5rem 0.5rem #d2e8e6;
+  box-shadow: 0.5rem 0.5rem #f1f5f5;
   transition: transform 0.4s;
 }
 

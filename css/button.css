@@ -14,6 +14,7 @@
   margin-top: 15px;
   outline: 0;
   border: 1px solid rgb(72, 72, 72);
+  border-radius: 1rem;
   cursor: pointer;
   position: relative;
   background-color: rgba(252, 252, 252, 0);
@@ -24,7 +25,8 @@
 
 .btn-green:after {
   content: '';
-  background-color: #79c4bc;
+  background-color: #bae0dc;
+  border-radius: 1rem;
   width: 100%;
   z-index: -2;
   position: absolute;
