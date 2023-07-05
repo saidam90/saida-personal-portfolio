@@ -24,7 +24,6 @@ body {
 
 .section-header {
   display: flex;
-  justify-content: space-between;
   font-family: 'Quicksand';
   font-weight: 400;
 }
