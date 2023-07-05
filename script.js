@@ -36,3 +36,4 @@ const modalOne = new Modal('.modal-one', '.show-modal-one', '.close-modal-one');
 const modalTwo = new Modal('.modal-two', '.show-modal-two', '.close-modal-two');
 const modalThree = new Modal('.modal-three', '.show-modal-three', '.close-modal-three');
 const modalFour = new Modal('.modal-four', '.show-modal-four', '.close-modal-four');
+const modalDevit = new Modal('.modal-devit', '.show-modal-devit', '.close-modal-devit');
